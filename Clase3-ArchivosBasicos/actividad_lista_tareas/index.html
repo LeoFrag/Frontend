@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lista de Tareas</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <h1>Lista de Tareas</h1>
+        <div class="contenedor">
+            <input type="text" id="nuevaTarea" placeholder="Ingrese una nueva tarea" text="">
+            <button onclick="agregarTarea()">Agregar</button>
+        </div>
+        <div class="mostrar">
+            <button onclick="mostrarCompletadas()">Mostrar tareas completadas</button>
+            <button onclick="mostrarPendientes()">Mostrar tareas pendientes</button>
+        </div>
+        <ul id="listaTareas"></ul>
+        <script src="script.js"></script>
+    </body>
+</html>
